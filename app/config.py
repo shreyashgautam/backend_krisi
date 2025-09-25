@@ -1,5 +1,5 @@
-# app/config.py
+import os
 
-MONGO_URI = "mongodb+srv://shreyashgautam2007_db_user:0DuME6I8FjEpMTED@cluster0.jrhuvez.mongodb.net/?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true"
+MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = "krisideep"
 COLLECTION_NAME = "soildata"
