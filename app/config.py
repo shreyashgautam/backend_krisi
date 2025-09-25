@@ -1,0 +1,5 @@
+# app/config.py
+
+MONGO_URI = "mongodb+srv://shreyashgautam2007_db_user:0DuME6I8FjEpMTED@cluster0.jrhuvez.mongodb.net/?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true"
+DB_NAME = "krisideep"
+COLLECTION_NAME = "soildata"
